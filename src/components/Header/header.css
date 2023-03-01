@@ -1,0 +1,94 @@
+.header {
+  background-color: #4180ab;
+  padding: 1rem;
+  height: 80px;
+  align-items: center;
+}
+.login {
+  width: 10rem;
+  height: 2.5rem;
+  
+  padding: 0;
+  background: #8db3cb;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+.logo {
+  position: relative;
+  bottom: 25px;
+}
+.login {
+  position: relative;
+  bottom: 15px;
+}
+.imagem_pessoa {
+  position: relative;
+  bottom: 15px;
+}
+.tres{
+  font-size: 40px;
+  color: #004aad;
+}
+.dois{
+  font-size: 40px;
+  color: #38b6ff;
+}
+.um{
+  font-size: 40px;
+  color: #9edbff;
+}
+.viagens{
+  color: #000;
+}
+.login-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.headerimg{
+    background-image: url(../../../public/assets/headerimg.png);
+    background-size: cover;
+}
+.title{
+  margin-bottom: 1rem;
+  color: #000;
+}
+ a{
+  text-decoration: none;
+
+}
+.links{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.icon_pessoa{
+  margin-left: 1rem;
+}
+@media (max-width: 380px) {
+  .login-text{
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  .login{
+    width: 5rem;
+    height: 2rem;
+  }
+  .title{
+    font-size: 1rem;
+    margin-top: 7px;
+    margin-right: 5px;
+  }
+  .icon_pessoa{
+    width: 6px;
+    height: 6px;
+  }
+}
